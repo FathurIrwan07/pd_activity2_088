@@ -33,3 +33,30 @@ int main() {
 
         switch (pilihan)
         {
+        case 1:
+            cout << "Masukan Panjang = ";
+            cin >> panjang;
+            cout << "Masukan Lebar = ";
+            cin >> lebar;
+            cout << "\nLuas Persegi Panjang = " << LuasPersegiPanjang(panjang, lebar);
+            break;
+        case 2:
+            cout << "Masukan Jejari = ";
+            cin >> jejari;
+            cout << "\nLuas Lingkaran = " << LuasLingkarang(jejari);
+            break;
+        case 3:
+            cout << "Masukan Alas = ";
+            cin >> alas;
+            cout << "Masukan Tinggi = ";
+            cin >> tinggi;
+            cout << "\nLuas Segitiga = " << LuasSegitiga(alas, tinggi);
+            break;
+        case 4:
+            menu = false;
+            break;
+        default:
+            cout << "Pilihan Salah !";
+            break;
+        }
+    }
