@@ -38,12 +38,12 @@ int main() {
             cin >> panjang;
             cout << "Masukan Lebar = ";
             cin >> lebar;
-            cout << "\nLuas Persegi Panjang = " << LuasPersegiPanjang(panjang, lebar);
+            cout << "\nLuas Persegi Panjang = " << LuasPersegi(panjang, lebar);
             break;
         case 2:
             cout << "Masukan Jejari = ";
             cin >> jejari;
-            cout << "\nLuas Lingkaran = " << LuasLingkarang(jejari);
+            cout << "\nLuas Lingkaran = " << LuasLingkaran(jejari);
             break;
         case 3:
             cout << "Masukan Alas = ";
@@ -59,4 +59,5 @@ int main() {
             cout << "Pilihan Salah !";
             break;
         }
-    }
+    }while (menu == true && pilihan != 4);
+}
