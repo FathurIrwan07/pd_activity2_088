@@ -37,7 +37,7 @@ int main() {
     case 2:
         cout << "Masukan jari-jari = ";
         cin >> jejari;
-        cout << "\nLuas lingkaran = " << luasLingkaran(jejari);
+        cout << "Luas lingkaran = " << luasLingkaran(jejari);
         break;
     case 3:
         cout << "Masukan alas = ";
@@ -48,10 +48,11 @@ int main() {
         break;
 
     case 4:
+        break;
     default:
         cout << "pilihan salah !";
         break;
     }
-
+}while (pilihan i=4);
 
 }
