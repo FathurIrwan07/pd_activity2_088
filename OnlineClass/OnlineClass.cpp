@@ -8,3 +8,7 @@ float LuasPersegi(float p, float l) {
 float LuasLingkaran(float r) {
     return 3.14 * r * r;
 }
+
+float LuasSegitiga(float a, float t) {
+    return 0.5 * a * t;
+}
